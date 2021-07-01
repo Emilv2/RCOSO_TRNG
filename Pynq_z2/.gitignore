@@ -1,0 +1,12 @@
+## temporary files
+vitis_workspace
+IP
+output
+/sim
+hw_server.pid
+notify.id
+
+# XIlinx stuff
+**/.Xil
+**/.srcs
+**/xrc.log

@@ -1,0 +1,15 @@
+# vivado
+**/hs_err_pid*.log
+**/vivado*.jou
+**/vivado*.log
+**/vivado_pid*.str
+**/vivado_pid*.zip
+**/usage_statistics_webtalk.xml
+**/usage_statistics_webtalk.html
+**/usage_statistics_ext_xsim.html
+**/ps7_summary.html
+
+# vitis
+**/vitis_pid*.str
+**/xrc.log
+**/vitis_workspace/*
