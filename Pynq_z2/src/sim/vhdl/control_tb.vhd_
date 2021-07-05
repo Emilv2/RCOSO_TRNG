@@ -1,0 +1,186 @@
+----------------------------------------------------------------------------------
+-- Company:
+-- Engineer:
+--
+-- Create Date: 04/15/2020 10:09:30 PM
+-- Design Name:
+-- Module Name: test_ro - Behavioral
+-- Project Name:
+-- Target Devices:
+-- Tool Versions:
+-- Description:
+--
+-- Dependencies:
+--
+-- Revision:
+-- Revision 0.01 - File Created
+-- Additional Comments:
+--
+----------------------------------------------------------------------------------
+
+
+library ieee;
+  use ieee.std_logic_1164.all;
+  use ieee.numeric_std.all;
+
+library coso_lib;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx leaf cells in this code.
+library UNISIM;
+  use UNISIM.VComponents.all;
+
+entity control_tb is
+--  Port ( );
+end control_tb ;
+
+architecture rtl of control_tb  is
+  constant count_width : integer := 16;
+  constant loop_max : unsigned(count_width -1 downto 0) := (others => '1');
+  constant half_period : time := 10 ns;
+  constant period : time := 2 * half_period;
+
+  signal s_data1         : std_logic_vector(31 downto 0);
+
+  signal clk : std_logic := '0';
+  signal rst : std_logic;
+  --signal counter_out : std_logic_vector(count_width -1  downto 0);
+
+  signal s_ro_0_counter : integer;
+  signal s_ro_1_counter : integer;
+
+  signal s_ro_out_0 : std_logic := '0';
+  signal s_ro_out_1 : std_logic := '0';
+
+  signal s_beat : std_logic;
+  signal s_beat_last : std_logic;
+  signal s_beat_rising_edge : std_logic;
+  signal s_valid : std_logic;
+
+  constant ro_0_half_period : integer := 120;
+  constant ro_1_half_period : integer := 128;
+
+  signal s_control_0 : std_logic_vector(3 downto 0);
+  signal s_control_1 : std_logic_vector(3 downto 0);
+  signal s_state : std_logic_vector(2 downto 0);
+
+  signal s_counter : std_logic_vector(count_width -1 downto 0);
+  signal s_high : std_logic_vector(count_width -1 downto 0);
+  signal s_low : std_logic_vector(count_width -1 downto 0);
+  signal test : boolean;
+  signal test2 : boolean;
+
+
+begin
+  mock_ro_0 : process(clk, rst) begin
+  if rst = '0' then
+    s_ro_0_counter <= 0;
+    s_ro_out_0 <= '0';
+  elsif rising_edge(clk) then
+    if s_ro_0_counter /= ro_0_half_period + 9*to_integer(unsigned(s_control_0)) then
+      s_ro_0_counter <= s_ro_0_counter + 1;
+    else
+      s_ro_0_counter <= 0;
+      s_ro_out_0 <= not s_ro_out_0;
+      end if;
+  end if;
+  end process mock_ro_0;
+
+  mock_ro_1 : process(clk, rst) begin
+  if rst = '0' then
+    s_ro_1_counter <= 0;
+     s_ro_out_1 <= '0';
+  elsif rising_edge(clk) then
+    if s_ro_1_counter /= ro_1_half_period + 9*to_integer(unsigned(s_control_1)) then
+      s_ro_1_counter <= s_ro_1_counter + 1;
+    else
+      s_ro_1_counter <= 1;
+      s_ro_out_1 <= not s_ro_out_1;
+      end if;
+  end if;
+  end process mock_ro_1;
+
+    beat_rising_edge : process(clk) is
+    begin
+      if rising_edge(clk) then
+        s_beat_last <= s_beat;
+        if (s_beat_last = '0' and s_beat = '1') then
+          s_beat_rising_edge <= '1';
+        else
+          s_beat_rising_edge <= '0';
+        end if;
+      end if;
+    end process beat_rising_edge;
+
+  beat_ff : fdce
+    port map (
+      clr => '0',
+      ce  => '1',
+      d   => s_ro_out_0,
+      c   => s_ro_out_1,
+      q   => s_beat
+    );
+
+  counter_inst : entity coso_lib.up_counter_0
+    generic map (
+    COUNT_WIDTH => COUNT_WIDTH
+    )
+    port map (
+      clk_i     => s_ro_out_1,
+      rst_i     => s_beat_rising_edge,
+      counter_o => s_counter
+    );
+
+  control_inst_0 : entity coso_lib.coso_control_0
+    generic map (
+      COUNT_WIDTH => COUNT_WIDTH
+    )
+    port map (
+      clk_i   => clk,
+      n_rst_i   => rst,
+      enable_i => std_logic'('1'),
+      beat_i  => s_beat,
+      count_i => s_counter,
+      high_i => s_high,
+      low_i => s_low,
+      control_0_o => s_control_0,
+      control_1_o => s_control_1,
+      valid_o => s_valid,
+      state_o => s_state,
+      bool_o => test2
+    );
+      s_data1 <= s_valid & s_state & s_control_0 & s_control_1 & "0000" & s_counter;
+
+      clk <= not clk after half_period;
+
+      s_low <= std_logic_vector(to_unsigned(35, s_low'length));
+      s_high <= std_logic_vector(to_unsigned(65, s_low'length));
+
+      process
+      begin
+        rst <= '0';
+        wait for period;
+        rst <= '1';
+
+        for i in 0 to to_integer(loop_max) loop
+         -- assert (counter_out = std_logic_vector(to_unsigned(i, counter_out'length)) ) report "counter_out should be " & integer'image(i) & ", but is " & integer'image(to_integer(unsigned(counter_out))) severity FAILURE;
+          wait for period;
+        end loop;
+        for i in 0 to to_integer(loop_max) loop
+         -- assert (counter_out = std_logic_vector(to_unsigned(i, counter_out'length)) ) report "counter_out should be " & integer'image(i) & ", but is " & integer'image(to_integer(unsigned(counter_out))) severity FAILURE;
+          wait for period;
+        end loop;
+        for i in 0 to to_integer(loop_max) loop
+         -- assert (counter_out = std_logic_vector(to_unsigned(i, counter_out'length)) ) report "counter_out should be " & integer'image(i) & ", but is " & integer'image(to_integer(unsigned(counter_out))) severity FAILURE;
+          wait for period;
+        end loop;
+        for i in 0 to to_integer(loop_max) loop
+         -- assert (counter_out = std_logic_vector(to_unsigned(i, counter_out'length)) ) report "counter_out should be " & integer'image(i) & ", but is " & integer'image(to_integer(unsigned(counter_out))) severity FAILURE;
+          wait for period;
+        end loop;
+
+        std.env.finish;
+      end process;
+
+
+end rtl;

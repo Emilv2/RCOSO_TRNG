@@ -1,0 +1,21 @@
+---
+file_list:
+  - "*.vhd"
+rule:
+  constant_004:
+    case: upper
+  generic_007:
+    case: upper
+  port_025:
+    disable: false
+  variable_007:
+    disable: true
+  variable_012:
+    disable: false
+  signal_007:
+    disable: true
+  signal_008:
+    disable: false
+  signal_015:
+    consecutive: 1
+...

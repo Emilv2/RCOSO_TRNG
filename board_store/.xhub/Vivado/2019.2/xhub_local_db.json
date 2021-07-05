@@ -1,0 +1,1365 @@
+{
+    "xhub": {
+        "product": "Vivado",
+        "release": "2019.2",
+        "xstores": [
+            {
+                "name": "xilinx_board_store",
+                "display_name": "XilinxBoardStore",
+                "root": "XilinxBoardStore",
+                "description": "Store for custom boards by Xilinx and Other Vendors",
+                "url": "https://github.com/Xilinx/XilinxBoardStore.git",
+                "store_type": "board",
+                "catalog_file": "catalog/xstore.json",
+                "branch": "2019.2",
+                "script_root": "support",
+                "item_root": "boards",
+                "user_repository": false,
+                "items": [
+                    {
+                        "name": "Ultra96",
+                        "company": "em.avnet.com",
+                        "revision": "1.2",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Avnet/ultra96/1.2/1.2",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "picozed_7010_fmc2",
+                        "company": "em.avnet.com",
+                        "revision": "1.2",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Avnet/picozed_7010_fmc2/1.2/1.2",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "arty",
+                        "company": "digilentinc.com",
+                        "revision": "1.1",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Digilent/arty/C.0/1.1",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "arty-a7-100",
+                        "company": "digilentinc.com",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Digilent/arty-a7-100/E.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "arty-a7-35",
+                        "company": "digilentinc.com",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Digilent/arty-a7-35/E.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "arty-s7-25",
+                        "company": "digilentinc.com",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Digilent/arty-s7-25/E.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "arty-s7-50",
+                        "company": "digilentinc.com",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Digilent/arty-s7-50/B.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "arty-z7-10",
+                        "company": "digilentinc.com",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Digilent/arty-z7-10/A.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "arty-z7-20",
+                        "company": "digilentinc.com",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Digilent/arty-z7-20/A.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "basys3",
+                        "company": "digilentinc.com",
+                        "revision": "1.1",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Digilent/basys3/C.0/1.1",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "cmod-s7-25",
+                        "company": "digilentinc.com",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Digilent/cmod-s7-25/B.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "cmod_a7-15t",
+                        "company": "digilentinc.com",
+                        "revision": "1.1",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Digilent/cmod_a7-15t/B.0/1.1",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "cmod_a7-35t",
+                        "company": "digilentinc.com",
+                        "revision": "1.1",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Digilent/cmod_a7-35t/B.0/1.1",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "cora-z7-07s",
+                        "company": "digilentinc.com",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Digilent/cora-z7-07s/B.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "cora-z7-10",
+                        "company": "digilentinc.com",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Digilent/cora-z7-10/B.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "genesys2",
+                        "company": "digilentinc.com",
+                        "revision": "1.1",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Digilent/genesys2/H/1.1",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "nexys4",
+                        "company": "digilentinc.com",
+                        "revision": "1.1",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Digilent/nexys4/B.1/1.1",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "nexys4_ddr",
+                        "company": "digilentinc.com",
+                        "revision": "1.1",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Digilent/nexys4_ddr/C.1/1.1",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "nexys_video",
+                        "company": "digilentinc.com",
+                        "revision": "1.1",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Digilent/nexys_video/A.0/1.1",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "sword",
+                        "company": "digilentinc.com",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Digilent/sword/C.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "zedboard",
+                        "company": "digilentinc.com",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Digilent/zedboard/1.3/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "zybo",
+                        "company": "digilentinc.com",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Digilent/zybo/B.3/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "zybo-z7-10",
+                        "company": "digilentinc.com",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Digilent/zybo-z7-10/A.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "zybo-z7-20",
+                        "company": "digilentinc.com",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Digilent/zybo-z7-20/A.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "minized",
+                        "company": "em.avnet.com",
+                        "revision": "1.2",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Avnet/minized/1.2/1.2",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0712_100_1i",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0712_100_1I/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0712_100_2c",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0712_100_2C/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0712_100_2c",
+                        "company": "trenz.biz",
+                        "revision": "2.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0712_100_2C/2.0/2.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0712_200_1i",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0712_200_1I/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0712_200_2c",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0712_200_2C/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0712_200_2i",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0712_200_2I/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0712_35_2i",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0712_35_2I/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0720_14s",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0720_14S/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0720_1c",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0720_1C/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0720_1c",
+                        "company": "trenz.biz",
+                        "revision": "2.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0720_1C/2.0/2.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0720_1il",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0720_1IL/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0720_1q",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0720_1Q/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0720_2e",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0720_2E/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0720_2i",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0720_2I/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0722",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0722/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0722_7s",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0722_7S/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0722_i",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0722_I/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0724_10_1i",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0724_10_1I/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0724_20_1i",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0724_20_1I/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0725lp_100",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0725LP/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0725_100_2c",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0725_100_2C/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0725_100_2i",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0725_100_2I/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0725_15_1c",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0725_15_1C/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0725_35_2c",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0725_35_2C/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0726_01",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0726/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0726_r",
+                        "company": "trenz.biz",
+                        "revision": "2.1",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0726/2.1/2.1",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0726_m",
+                        "company": "trenz.biz",
+                        "revision": "3.1",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0726/3.1/3.1",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0726_7s",
+                        "company": "trenz.biz",
+                        "revision": "3.1",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0726_7S/3.1/3.1",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0729_20_2i",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0729_20_2I/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0729_20_2i",
+                        "company": "trenz.biz",
+                        "revision": "2.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0729_20_2I/2.0/2.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0803_2cg_1e",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0803_2CG_1E/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0803_2cg_1e_tebf0808",
+                        "company": "trenz.biz",
+                        "revision": "2.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0803_2CG_1E/2.0/2.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0803_2eg_1e",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0803_2EG_1E/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0803_2eg_1e_tebf0808",
+                        "company": "trenz.biz",
+                        "revision": "2.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0803_2EG_1E/2.0/2.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0803_3cg_1e",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0803_3CG_1E/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0803_3cg_1e_tebf0808",
+                        "company": "trenz.biz",
+                        "revision": "2.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0803_3CG_1E/2.0/2.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0803_3eg_1e",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0803_3EG_1E/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0803_3eg_1e_tebf0808",
+                        "company": "trenz.biz",
+                        "revision": "2.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0803_3EG_1E/2.0/2.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0803_3eg_1e",
+                        "company": "trenz.biz",
+                        "revision": "3.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0803_3EG_1E/3.0/3.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0803_3eg_1e_tebf0808",
+                        "company": "trenz.biz",
+                        "revision": "4.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0803_3EG_1E/4.0/4.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0803_4cg_1e",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0803_4CG_1E/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0803_4cg_1e_tebf0808",
+                        "company": "trenz.biz",
+                        "revision": "2.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0803_4CG_1E/2.0/2.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0803_4eg_1e",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0803_4EG_1E/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0803_4eg_1e_tebf0808",
+                        "company": "trenz.biz",
+                        "revision": "2.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0803_4EG_1E/2.0/2.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0803_4eg_1i",
+                        "company": "trenz.biz",
+                        "revision": "5.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0803_4EG_1I/5.0/5.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0803_4eg_1i_tebf0808",
+                        "company": "trenz.biz",
+                        "revision": "6.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0803_4EG_1I/6.0/6.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0803_4ev_1e",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0803_4EV_1E/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0803_4ev_1e_tebf0808",
+                        "company": "trenz.biz",
+                        "revision": "2.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0803_4EV_1E/2.0/2.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0803_5ev_1e",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0803_5EV_1E/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0803_5ev_1e_tebf0808",
+                        "company": "trenz.biz",
+                        "revision": "2.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0803_5EV_1E/2.0/2.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0803_5ev_1i",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0803_5EV_1I/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0803_5ev_1i_tebf0808",
+                        "company": "trenz.biz",
+                        "revision": "2.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0803_5EV_1I/2.0/2.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0808_15eg_1e",
+                        "company": "trenz.biz",
+                        "revision": "3.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0808_15EG_1E/3.0/3.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0808_15eg_1e_tebf0808",
+                        "company": "trenz.biz",
+                        "revision": "4.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0808_15EG_1E/4.0/4.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0808_6eg_1e",
+                        "company": "trenz.biz",
+                        "revision": "3.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0808_6EG_1E/3.0/3.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0808_6eg_1e_tebf0808",
+                        "company": "trenz.biz",
+                        "revision": "4.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0808_6EG_1E/4.0/4.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0808_9eg_1e",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0808_9EG_1E/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0808_9eg_1e_tebf0808",
+                        "company": "trenz.biz",
+                        "revision": "2.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0808_9EG_1E/2.0/2.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0808_9eg_1e",
+                        "company": "trenz.biz",
+                        "revision": "3.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0808_9EG_1E/3.0/3.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0808_9eg_1e_tebf0808",
+                        "company": "trenz.biz",
+                        "revision": "4.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0808_9EG_1E/4.0/4.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0808_9eg_2i",
+                        "company": "trenz.biz",
+                        "revision": "3.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0808_9EG_2I/3.0/3.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0808_9eg_2i_tebf0808",
+                        "company": "trenz.biz",
+                        "revision": "4.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0808_9EG_2I/4.0/4.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0820_2cg_1e",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0820_2CG_1E/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0820_2eg_1e",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0820_2EG_1E/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0820_2eg_1e",
+                        "company": "trenz.biz",
+                        "revision": "2.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0820_2EG_1E/2.0/2.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0820_3cg_1e",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0820_3CG_1E/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0820_3eg_1e",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0820_3EG_1E/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0820_4cg_1e",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0820_4CG_1E/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "te0820_4ev_1e",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TE0820_4EV_1E/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "teb0911_9eg_1e",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TEB0911_9EG_1E/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "tec0850_15eg_1e",
+                        "company": "trenz.biz",
+                        "revision": "1.0",
+                        "commit_id": "db82df60ac9023136a25d6694bf7fc90e3a8d797",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Trenz_Electronic/TEC0850_15EG_1E/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "vcu128_es",
+                        "company": "xilinx.com",
+                        "revision": "1.0",
+                        "commit_id": "f9a36455cc1ef56e330e97cf971af06e7da6ee20",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Xilinx/vcu128/es/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "vcu128_es",
+                        "company": "xilinx.com",
+                        "revision": "1.1",
+                        "commit_id": "f9a36455cc1ef56e330e97cf971af06e7da6ee20",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Xilinx/vcu128/es/1.1/1.1",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "vcu128",
+                        "company": "xilinx.com",
+                        "revision": "1.0",
+                        "commit_id": "f9ffbbdaed9f89df1aea09ccbc270e5abb4ce021",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Xilinx/vcu128/production/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "vcu129",
+                        "company": "xilinx.com",
+                        "revision": "1.0",
+                        "commit_id": "e106a16e05592900a4d79cef425ddd3377fc24db",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Xilinx/vcu129/production/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "vcu129_es",
+                        "company": "xilinx.com",
+                        "revision": "1.0",
+                        "commit_id": "3af66ae67961036c370e4860f45b9841724a8eed",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Xilinx/vcu129/es/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "au280",
+                        "company": "xilinx.com",
+                        "revision": "1.0",
+                        "commit_id": "5750e954911c087972ef1993f30980b7c4c3407f",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Xilinx/au280/production/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "au280",
+                        "company": "xilinx.com",
+                        "revision": "1.1",
+                        "commit_id": "7b69d37cac28e7185d16532defff9b7a8520a28e",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Xilinx/au280/production/1.1/1.1",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "ac701",
+                        "company": "xilinx.com",
+                        "revision": "1.4",
+                        "commit_id": "b6b08e53750126f55d887391bb52976b76cecc15",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Xilinx/ac701/1.4/1.4",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "kc705",
+                        "company": "xilinx.com",
+                        "revision": "1.6",
+                        "commit_id": "b6b08e53750126f55d887391bb52976b76cecc15",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Xilinx/kc705/1.6/1.6",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "SP701",
+                        "company": "xilinx.com",
+                        "revision": "1.0",
+                        "commit_id": "bbfa3eed25bc6e12ac30fe0a656df3b202aed09d",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Xilinx/sp701/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "vc707",
+                        "company": "xilinx.com",
+                        "revision": "1.4",
+                        "commit_id": "b6b08e53750126f55d887391bb52976b76cecc15",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Xilinx/vc707/1.4/1.4",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "vc709",
+                        "company": "xilinx.com",
+                        "revision": "1.8",
+                        "commit_id": "b6b08e53750126f55d887391bb52976b76cecc15",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Xilinx/vc709/1.8/1.8",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "zc702",
+                        "company": "xilinx.com",
+                        "revision": "1.4",
+                        "commit_id": "b6b08e53750126f55d887391bb52976b76cecc15",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Xilinx/zc702/1.4/1.4",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "zc706",
+                        "company": "xilinx.com",
+                        "revision": "1.4",
+                        "commit_id": "b6b08e53750126f55d887391bb52976b76cecc15",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Xilinx/zc706/1.4/1.4",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "kcu105",
+                        "company": "xilinx.com",
+                        "revision": "1.6",
+                        "commit_id": "1bc62be086a8d3b4b8b07ac87e84f85e291ab036",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Xilinx/kcu105/1.6/1.6",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "kcu116",
+                        "company": "xilinx.com",
+                        "revision": "1.4",
+                        "commit_id": "c0944700b73787b72133d87b7519934741cda4ee",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Xilinx/kcu116/1.4/1.4",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "KCU1500",
+                        "company": "xilinx.com",
+                        "revision": "1.2",
+                        "commit_id": "c0944700b73787b72133d87b7519934741cda4ee",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Xilinx/kcu1500/1.2/1.2",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "vcu108",
+                        "company": "xilinx.com",
+                        "revision": "1.6",
+                        "commit_id": "c0944700b73787b72133d87b7519934741cda4ee",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Xilinx/vcu108/1.6/1.6",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "vcu110",
+                        "company": "xilinx.com",
+                        "revision": "1.4",
+                        "commit_id": "c0944700b73787b72133d87b7519934741cda4ee",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Xilinx/vcu110/1.4/1.4",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "vcu118",
+                        "company": "xilinx.com",
+                        "revision": "2.3",
+                        "commit_id": "c0944700b73787b72133d87b7519934741cda4ee",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Xilinx/vcu118/2.3/2.3",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "vcu118",
+                        "company": "xilinx.com",
+                        "revision": "2.0",
+                        "commit_id": "f1b63e7c35cd8f3cbe5323da52d35306bacc80dc",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Xilinx/vcu118/2.0/2.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "VCU1525",
+                        "company": "xilinx.com",
+                        "revision": "1.3",
+                        "commit_id": "c0944700b73787b72133d87b7519934741cda4ee",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Xilinx/vcu1525/1.3/1.3",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "zcu102",
+                        "company": "xilinx.com",
+                        "revision": "3.3",
+                        "commit_id": "c0944700b73787b72133d87b7519934741cda4ee",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Xilinx/zcu102/3.3/3.3",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "zcu104",
+                        "company": "xilinx.com",
+                        "revision": "1.1",
+                        "commit_id": "c0944700b73787b72133d87b7519934741cda4ee",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Xilinx/zcu104/1.1/1.1",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "zcu106",
+                        "company": "xilinx.com",
+                        "revision": "2.4",
+                        "commit_id": "c0944700b73787b72133d87b7519934741cda4ee",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Xilinx/zcu106/2.4/2.4",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "zcu106",
+                        "company": "xilinx.com",
+                        "revision": "2.4",
+                        "commit_id": "e440c6450e77418681ad710e352751cdbfa4cbf6",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Xilinx/zcu106/2.5/2.5",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": false
+                    },
+                    {
+                        "name": "zcu111",
+                        "company": "xilinx.com",
+                        "revision": "1.2",
+                        "commit_id": "0aabf6479b05a595c0f2786d092b71d4fe5721e9",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Xilinx/zcu111/1.2/1.2",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "zcu216",
+                        "company": "xilinx.com",
+                        "revision": "1.0",
+                        "commit_id": "860d92ee60e32fd4976a83240d52b94057e8118f",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Xilinx/zcu216/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "zcu1275",
+                        "company": "xilinx.com",
+                        "revision": "1.0",
+                        "commit_id": "c0944700b73787b72133d87b7519934741cda4ee",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Xilinx/zcu1275/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "zcu1285",
+                        "company": "xilinx.com",
+                        "revision": "1.0",
+                        "commit_id": "c0944700b73787b72133d87b7519934741cda4ee",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Xilinx/zcu1285/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "au280_es1",
+                        "company": "xilinx.com",
+                        "revision": "1.1",
+                        "commit_id": "ff158172d435d82c4beefc0289e6831353144573",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Xilinx/au280/es1/1.1/1.1",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "au280_es1",
+                        "company": "xilinx.com",
+                        "revision": "1.0",
+                        "commit_id": "ff158172d435d82c4beefc0289e6831353144573",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Xilinx/au280/es1/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "au200",
+                        "company": "xilinx.com",
+                        "revision": "1.2",
+                        "commit_id": "78da943ed1848454aa4c8a176264366f572a947b",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Xilinx/au200/1.2/1.2",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "au200",
+                        "company": "xilinx.com",
+                        "revision": "1.3",
+                        "commit_id": "5f19190f13813dc421a997e8ac050256b4c56ea7",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Xilinx/au200/1.3/1.3",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "au250",
+                        "company": "xilinx.com",
+                        "revision": "1.3",
+                        "commit_id": "5f19190f13813dc421a997e8ac050256b4c56ea7",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Xilinx/au250/1.3/1.3",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "au50dd",
+                        "company": "xilinx.com",
+                        "revision": "1.0",
+                        "commit_id": "ac855f447a7ac1b5b0825e4173674054e4ffb972",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Xilinx/au50/es/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "au50",
+                        "company": "xilinx.com",
+                        "revision": "1.0",
+                        "commit_id": "fc2fd67802cc686d7246322c0eaf2e6ebfff7820",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Xilinx/au50/production/1.0/1.0",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    },
+                    {
+                        "name": "au250",
+                        "company": "xilinx.com",
+                        "revision": "1.2",
+                        "commit_id": "6296c708b2d9656da167a927fedb9b1dadfe82cb",
+                        "local_directory": "/home/emil/.Xilinx/Vivado/2019.2/xhub/board_store/XilinxBoardStore/Vivado/2019.2/boards/Xilinx/au250/1.2/1.2",
+                        "installation_mode": "user",
+                        "reference_count": 0,
+                        "is_latest": true
+                    }
+                ]
+            }
+        ],
+        "_major": "1",
+        "_minor": "1"
+    }
+}

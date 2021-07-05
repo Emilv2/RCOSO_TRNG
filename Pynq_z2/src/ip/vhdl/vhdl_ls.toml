@@ -1,0 +1,12 @@
+[libraries]
+coso_lib.files = [
+  'coso_dma_v4_0_S00_AXI.vhd',
+  'coso_dma_v4_0.vhd',
+  'coso_trng.vhd',
+  'coso_control.vhd',
+  'up_counter.vhd',
+  'ro5.vhd'
+]
+unisim.files = [
+  '/tools/Xilinx/Vivado/2019.2/data/vhdl/src/unisims/unisim_VCOMP.vhd',
+]
