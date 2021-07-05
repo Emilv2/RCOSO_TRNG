@@ -1,6 +1,7 @@
 # TRNG
 
-This is a reference implementation for the Reconfigurable COherent Sampling ring Oscillator based True Random Number Generator.
+This is a reference implementation for the Reconfigurable COherent Sampling ring Oscillator based True Random Number Generator,
+based on the [COSO TRNG](https://github.com/KULeuven-COSIC/COSO-TRNG) by Peetermans et al.
 
 ## Running
 
@@ -28,7 +29,7 @@ pip3 install -r requirements.txt
 Run the capture script with:
 
 ```
-python3 scripts/python/rand_uart_control.py rand_out.bin
+python3 scripts/python/uart.py rand_out.bin
 ```
 
 You will get a file `rand_out.bin` with 16 MiB of consecutive random bits and a text file named `rand_out.bin_throughput` with the throughput in Mb/s.
